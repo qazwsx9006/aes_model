@@ -4,8 +4,8 @@ require 'openssl'
 require 'base64'
 
 module AesEncryptDecrypt
-	KEY = "7oSdfnnH6z1uOT1LBXcctbAUm4dbf1BUwNcYnwPyIKI=\n"
-	IV = "nhmN48+1SXCj3veioaF0Uw==\n"
+	KEY = "加密ＫＥＹ"
+	IV = "加密ＩＶ"
 
 	def self.encryption(msg)
 		begin
