@@ -1,8 +1,5 @@
 # encoding: utf-8
 
-require 'openssl'
-require 'base64'
-
 module AesEncryptDecrypt
 	KEY = "加密ＫＥＹ"
 	IV = "加密ＩＶ"
